@@ -1,5 +1,5 @@
 {
-  "name": "lets-chat",
+  "name": "auth-proj",
   "version": "0.0.1",
   "description": "",
   "author": "",
@@ -20,11 +20,22 @@
     "test:e2e": "jest --config ./test/jest-e2e.json"
   },
   "dependencies": {
+    "@nest-middlewares/cors": "^10.0.0",
     "@nestjs/common": "^10.0.0",
     "@nestjs/core": "^10.0.0",
+    "@nestjs/cqrs": "^10.2.7",
+    "@nestjs/jwt": "^10.2.0",
+    "@nestjs/mongoose": "^10.0.6",
     "@nestjs/platform-express": "^10.0.0",
+    "@nestjs/platform-socket.io": "^10.3.8",
+    "@nestjs/websockets": "^10.3.8",
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "ioredis": "^5.4.1",
+    "mongoose": "^8.3.5",
     "reflect-metadata": "^0.2.0",
-    "rxjs": "^7.8.1"
+    "rxjs": "^7.8.1",
+    "socket.io": "^4.7.5"
   },
   "devDependencies": {
     "@nestjs/cli": "^10.0.0",

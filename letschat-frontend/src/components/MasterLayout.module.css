@@ -1,0 +1,32 @@
+.masterLayout {
+    display: flex;
+    min-height: 100vh; /* Set minimum height to fill viewport */
+  }
+  
+  header,
+  aside,
+  main {
+    flex: 1; /* Make each section take up equal space */
+    padding: 1rem;
+  }
+  
+  header {
+    background-color: #f0f0f0;
+    text-align: center;
+  }
+  
+  aside {
+    background-color: #e0e0e0;
+  }
+  
+  main {
+    background-color: #fff;
+  }
+  
+  /* Optional styles for better visual separation */
+  header,
+  aside,
+  main {
+    border: 1px solid #ddd;
+    margin: 5px;
+  }
